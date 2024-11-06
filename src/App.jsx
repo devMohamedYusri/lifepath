@@ -1,6 +1,8 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import { useState } from 'react';
-import Layout from './components/Layout';
+import PatientLayout from './components/PatientLayout';
+import AdminLayout from './components/AdminLayout';
+import DoctorLayout from './components/DoctorLayout';
 import Home from './components/Home';
 // import Profile from './components/Profile';
 // import Settings from './components/Settings';
@@ -10,19 +12,27 @@ import Home from './components/Home';
 // import Documents from './components/Documents';
 
 function App() {
-    const [activeLink, setActiveLink] = useState('Home');
+    const [activeLink, setActiveLink] = useState('home');
+
     return (
         <Router>
-            <Layout activeLink={activeLink} setActiveLink={setActiveLink} />
             <Routes>
-                {/* <Route path="/home" component={Home} /> */}
-                {/* <Route path="/profile" component={Profile} />
-                <Route path="/settings" component={Settings} />
-                <Route path="/about" component={About} />
-                <Route path="/contact" component={Contact} />
-                <Route path="/reports" component={Reports} />
-                <Route path="/documents" component={Documents} /> */}
-                <Route path="/" exact component={Layout} />
+                <Route path="/" element={<Navigate to="/patient/home" />} />
+                <Route path="/patient/*" element={<PatientLayout activeLink={activeLink} setActiveLink={setActiveLink} />}>
+                    <Route path="home" element={<Home />} />
+                    {/* <Route path="profile" element={<Profile />} />
+                    <Route path="settings" element={<Settings />} />
+                    <Route path="about" element={<About />} />
+                    <Route path="contact" element={<Contact />} />
+                    <Route path="reports" element={<Reports />} />
+                    <Route path="documents" element={<Documents />} /> */}
+                </Route>
+
+                <Route path="/admin/*" element={<AdminLayout />}>
+                </Route>
+
+                <Route path="/doctor/*" element={<DoctorLayout />}>
+                </Route>
             </Routes>
         </Router>
     );

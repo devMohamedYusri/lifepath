@@ -13,11 +13,11 @@ const PopularDoctor = () => {
     };
 
     return (
-        <Link to={`/doctors/${doctor.id}`} className="flex  w-[300px] h-fit items-center p-1 border rounded-lg shadow-md hover:shadow-lg">
+        <Link to={`/doctors/${doctor.id}`} className="flex  w-full h-fit items-center p-1 border rounded-lg shadow-md hover:shadow-lg">
             <img src={image} alt={`${doctor.name} صورة`} className="w-20 h-20 rounded-full mr-4 shadow-md" />
             <div className="flex-1">
                 <div className="flex m-2">
-                <h3 className="text-xl font-bold">{doctor.nickname} :  </h3>
+                <h3 className="text-xl font-semibold">{doctor.nickname} :  </h3>
                 <p className="text-lg">{doctor.name}</p>
                 </div>
                 <div className="flex items-center">
