@@ -1,9 +1,9 @@
-import { Clock, MessageCircle, AlertCircle } from 'lucide-react';
+import { BookText, Clock } from 'lucide-react';
 import image from '../assets/react.svg'
 import Button from '../design/Button';
-const AppointmentCard = ({className}) => {
+const VisitCard = ({ className }) => {
     return (
-        <div className={` bg-white rounded-xl border-2 border-gray-200 p-4 flex-shrink-0 ${className}`} dir="rtl">
+        <div className={`flex bg-white rounded-xl border-2 border-gray-200 p-4 flex-shrink-0 items-center justify-between ${className}`} dir="rtl">
             <div className="flex gap-2">
                 <div className="flex-shrink-0">
                     <div className="w-20 h-20 bg-gray-100 rounded-lg overflow-hidden">
@@ -31,25 +31,30 @@ const AppointmentCard = ({className}) => {
                         <div>
                             <div>الموعد: الثلاثاء 16 أبريل 24</div>
                             <div>الساعة 10:00 صباحاً</div>
+
                         </div>
                     </div>
-
+                    <div className="mt-1 flex gap-2 text-gray-600">
+                        <BookText className="w-5 h-5" />
+                        <div className="flex gap-2">
+                            <div>النوع: اوفلاين</div>
+                            <div>المكان :افتراضي</div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
 
-            <div >
-                <div className="flex items-center gap-2 text-gray-700">
-                    <AlertCircle className="w-5 h-5" />
-                    <span className="text-gray-950">تعليمات:</span>
-                </div>
-                <p className="text-gray-950 pr-7">
-                    يجب احضار كافة الأشعة والتحاليل الخاصة بالحالة
-                </p>
+            <p className="text-lg">الحالة : </p>
+            <div>
+            <Button text="تم الحضور" className={"w-fit p-5 rounded-md bg-[#B2C1FF] border-none hover:bg-[#B2C1FF] text-black cursor-default"} />
             </div>
-            <Button text ="ارسل استفسار طبيبك" icon={MessageCircle}/>
+
+            <div>
+                <Button text="تقييم الزيارة" className={"w-fit p-10 px-20 rounded-md"} />
+            </div>
         </div>
     );
 };
 
-export default AppointmentCard;
+export default VisitCard;

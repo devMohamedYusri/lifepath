@@ -13,7 +13,7 @@ const PopularDoctor = () => {
     };
 
     return (
-        <Link to={`/doctors/${doctor.id}`} className="flex  w-full h-fit items-center p-1 border rounded-lg shadow-md hover:shadow-lg">
+        <Link to={`/doctors/${doctor.id}`} className="flex w-full h-fit items-center p-1 border rounded-lg shadow-md hover:shadow-lg">
             <img src={image} alt={`${doctor.name} صورة`} className="w-20 h-20 rounded-full mr-4 shadow-md" />
             <div className="flex-1">
                 <div className="flex m-2">
@@ -21,7 +21,7 @@ const PopularDoctor = () => {
                 <p className="text-lg">{doctor.name}</p>
                 </div>
                 <div className="flex items-center">
-                    <img src={'/vite.svg'} alt={`${doctor.specialty.name} أيقونة`} className="w-5 h-5 m-2"/>
+                    <img src={'/vite.svg'} alt={`${doctor.specialty.name} أيقونة`} className="w-5 h-5 m-1"/>
                     <span className="text-gray-500">{doctor.specialty.name}</span>
                 </div>
                 <div className="mt-2">

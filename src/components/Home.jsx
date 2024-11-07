@@ -3,18 +3,20 @@ import Title from "../design/title";
 import SpecialistCard from './SpecialistCard';
 import blood from '../assets/react.svg'
 import More from "../design/more";
-import Arrow from "../design/ArrowBack";
+import Arrow from "../design/Arrow";
 import Calendar from "./Calendar";
 import Day from "../design/Day";
 import AppointmentCard from "./AppointmentCard";
 import InfoCard from "./InfoCard";
 import BlogCard from './BlogCard';
 import PopularDoctor from './PopularDoctor';
+import { MessageCircle } from 'lucide-react';
+
 
 function Home() {
     return (
         <div className="h-full flex mb-10">
-            <div className="w-2/3">
+            <div className="w-3/4">
                 <Container className={"m-4 p-3 overflow-hidden"}>
                     <div className="flex gap-3 justify-between">
                         <div className="flex gap-6 mb-5">
@@ -24,7 +26,6 @@ function Home() {
                         <div className="flex gap-4">
                             <Arrow onClick={() => document.querySelector('.specialist-cards').scrollLeft -= 100} />
                             <Arrow isBack={true} onClick={() => document.querySelector('.specialist-cards').scrollLeft += 100} />
-
                         </div>
                     </div>
                     <div className="flex gap-4 overflow-hidden specialist-cards">
@@ -63,12 +64,14 @@ function Home() {
                         <Day day="السبت" date="22" />
                     </div>
                     <div className="flex gap-2 overflow-hidden appointments-cards">
-                        <AppointmentCard />
-                        <AppointmentCard />
-                        <AppointmentCard />
-                        <AppointmentCard />
-                        <AppointmentCard />
-                        <AppointmentCard />
+                        <AppointmentCard className="w-1/3"/>
+                        <AppointmentCard className="w-1/3"/>
+                        <AppointmentCard className="w-1/3"/>
+                        <AppointmentCard className="w-1/3"/>
+                        <AppointmentCard className="w-1/3"/>
+                        <AppointmentCard className="w-1/3"/>
+                        <AppointmentCard className="w-1/3"/>
+
                     </div>
                 </Container>
                 
@@ -108,7 +111,7 @@ function Home() {
                 </Container>
 
             </div>
-            <div className="w-1/3 center ">
+            <div className="w-1/4 center ">
                 <Calendar />
                 <Container className={"mt-3 p-3 overflow-hidden rounded-3xl w-[94%]"}>
                     <div className="flex gap-3 justify-between py-3">
