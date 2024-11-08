@@ -1,6 +1,6 @@
-import Container from "../design/Container"
-import Title from "../design/title"
-import image from '../assets/react.svg'
+import Container from "../../design/Container"
+import Title from "../../design/title"
+import image from '../../assets/react.svg'
 import VisitCard from "./VisitCard"
 import { AiOutlinePlusCircle } from "react-icons/ai"
 import { Link } from "react-router-dom"

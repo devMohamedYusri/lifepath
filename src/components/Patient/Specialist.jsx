@@ -1,6 +1,6 @@
-import Container from "../design/Container"
-import Title from "../design/title"
-import image from '../assets/react.svg'
+import Container from "../../design/Container"
+import Title from "../../design/title"
+import image from '../../assets/react.svg'
 import DoctorCard from './DoctorCard'
 import { FaArrowLeftLong } from "react-icons/fa6"
 import { useState } from "react"

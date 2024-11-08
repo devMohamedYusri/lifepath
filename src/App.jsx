@@ -1,12 +1,15 @@
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
-import { useState } from 'react';
-import PatientLayout from './components/PatientLayout';
-import AdminLayout from './components/AdminLayout';
-import DoctorLayout from './components/DoctorLayout';
-import Home from './components/Home';
-import Booking from './components/Booking';
-import Specialist from './components/specialist';
-import PreviousVisits from './components/PreviousVisits';
+import PatientLayout from './components/Patient/PatientLayout';
+import AdminLayout from './components/Dashboard/AdminLayout';
+import DoctorLayout from './components/Doctor/DoctorLayout';
+import Home from './components/Patient/Home';
+import Booking from './components/Patient/Booking';
+import Specialist from './components/Patient/Specialist';
+import PreviousVisits from './components/Patient/PreviousVisits';
+import LoginLayout from './components/LoginLayout';
+import Login from './components/Patient/Login';
+import Register from './components/Patient/Register';
+import Messages from './components/Patient/Messages';
 // import Profile from './components/Profile';
 // import Settings from './components/Settings';
 // import About from './components/About';
@@ -15,17 +18,22 @@ import PreviousVisits from './components/PreviousVisits';
 // import Documents from './components/Documents';
 
 function App() {
-    const [activeLink, setActiveLink] = useState('home');
-
     return (
         <Router>
             <Routes>
                 <Route path="/" element={<Navigate to="/patient/home" />} />
-                <Route path="/patient/*" element={<PatientLayout activeLink={activeLink} setActiveLink={setActiveLink} />}>
+                <Route path="/login" element={<LoginLayout />} >
+                    <Route path="patient" element={<Login />} />
+                    <Route path="register" element={<Register />} />
+
+                </Route>
+
+                <Route path="/patient/*" element={<PatientLayout />}>
                     <Route path="home" element={<Home />} />
                     <Route path="booking" element={<Booking />} />
                     <Route path="booking/specialist/:name" element={<Specialist />} />
                     <Route path="previous-visits/" element={<PreviousVisits />} />
+                    <Route path="messages/" element={<Messages />} />
 
                     {/* <Route path="profile" element={<Profile />} />
                     <Route path="settings" element={<Settings />} />

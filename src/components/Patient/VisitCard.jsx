@@ -1,6 +1,6 @@
 import { BookText, Clock } from 'lucide-react';
-import image from '../assets/react.svg'
-import Button from '../design/Button';
+import image from '../../assets/react.svg'
+import Button from '../../design/Button';
 const VisitCard = ({ className }) => {
     return (
         <div className={`flex bg-white rounded-xl border-2 border-gray-200 p-4 flex-shrink-0 items-center justify-between ${className}`} dir="rtl">

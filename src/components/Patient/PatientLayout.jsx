@@ -4,14 +4,14 @@ import { FaHome, FaUser, FaCog, FaInfo, FaEnvelope, FaChartPie, FaFileAlt, FaChe
 import { IoMdArrowDropdown } from "react-icons/io";
 import { CiUser } from 'react-icons/ci';
 import { IoBagOutline, IoSearchOutline } from 'react-icons/io5';
-import logo from '../assets/lifepath.jpg';
+import logo from '../../assets/lifepath.jpg';
 import { GoQuestion, GoSidebarCollapse, GoSidebarExpand } from 'react-icons/go';
 import { RiCalendarScheduleLine } from 'react-icons/ri';
 
-function PatientLayout({ activeLink, setActiveLink }) {
+function PatientLayout() {
     const [profileOpen, setProfileOpen] = useState(false);
     const [sidebarOpen, setSidebarOpen] = useState(true);
-
+    const [activeLink, setActiveLink] = useState('الصفحة الرئيسية');
     const links = [
         { name: 'الصفحة الرئيسية', icon: <FaHome />, link: '/patient/home', active: activeLink === 'الصفحة الرئيسية' },
         { name: 'الحجز', icon: <FaUser />, link: '/patient/booking', active: activeLink === 'الحجز' },

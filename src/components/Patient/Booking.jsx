@@ -1,8 +1,8 @@
-import Arrow from "../design/Arrow"
-import Container from "../design/Container"
-import More from "../design/more"
-import Title from "../design/title"
-import image from '../assets/react.svg'
+import Arrow from "../../design/Arrow"
+import Container from "../../design/Container"
+import More from "../../design/more"
+import Title from "../../design/title"
+import image from '../../assets/react.svg'
 import SpecialistCard from "./SpecialistCard"
 import DoctorCard from './DoctorCard'
 

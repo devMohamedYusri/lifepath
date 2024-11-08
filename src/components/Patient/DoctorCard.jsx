@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import image from '../assets/react.svg'
-import DoctorRatingStars from "../design/DoctorRating";
+import image from '../../assets/react.svg'
+import DoctorRatingStars from "../../design/DoctorRating";
 import { CiStethoscope } from "react-icons/ci";
-import Button from "../design/Button";
+import Button from "../../design/Button";
 import { MessageCircle } from "lucide-react";
 
 function DoctorCard() {

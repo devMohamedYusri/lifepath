@@ -1,16 +1,15 @@
-import Container from "../design/Container";
-import Title from "../design/title";
+import Container from "../../design/Container";
+import Title from "../../design/title";
 import SpecialistCard from './SpecialistCard';
-import blood from '../assets/react.svg'
-import More from "../design/more";
-import Arrow from "../design/Arrow";
+import blood from '../../assets/react.svg'
+import More from "../../design/more";
+import Arrow from "../../design/Arrow";
 import Calendar from "./Calendar";
-import Day from "../design/Day";
+import Day from "../../design/Day";
 import AppointmentCard from "./AppointmentCard";
 import InfoCard from "./InfoCard";
 import BlogCard from './BlogCard';
 import PopularDoctor from './PopularDoctor';
-import { MessageCircle } from 'lucide-react';
 
 
 function Home() {
