@@ -10,6 +10,7 @@ import LoginLayout from './components/LoginLayout';
 import Login from './components/Patient/Login';
 import Register from './components/Patient/Register';
 import Messages from './components/Patient/Messages';
+import Schedule from './components/Patient/Schedule';
 // import Profile from './components/Profile';
 // import Settings from './components/Settings';
 // import About from './components/About';
@@ -34,6 +35,7 @@ function App() {
                     <Route path="booking/specialist/:name" element={<Specialist />} />
                     <Route path="previous-visits/" element={<PreviousVisits />} />
                     <Route path="messages/" element={<Messages />} />
+                    <Route path="schedule/" element={<Schedule />} />
 
                     {/* <Route path="profile" element={<Profile />} />
                     <Route path="settings" element={<Settings />} />
