@@ -70,7 +70,6 @@ function Home() {
                         <AppointmentCard className="w-1/3"/>
                         <AppointmentCard className="w-1/3"/>
                         <AppointmentCard className="w-1/3"/>
-
                     </div>
                 </Container>
                 

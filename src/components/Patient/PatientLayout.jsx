@@ -21,8 +21,8 @@ function PatientLayout() {
         { name: 'زيارات منزلية', icon: <FaEnvelope />, link: '/patient/home-visits', active: activeLink === 'زيارات منزلية' },
         { name: 'الصيدلية ', icon: <FaChartPie />, link: '/patient/pharmacy', active: activeLink === 'الصيدلية ' },
         { name: 'التحاليل الطبية', icon: <FaFileAlt />, link: '/patient/medical-tests', active: activeLink === 'التحاليل الطبية' },
-        { name: 'اسأل سؤال ', icon: <GoQuestion /> , link: '/patient/question', active: activeLink === 'اسأل سؤال ' },
-        { name: 'نصائح طبية', icon: <FaCheckCircle />, link: '/patient/advices', active: activeLink === 'نصائح طبية' },
+        { name: 'اسأل سؤال ', icon: <GoQuestion /> , link: '/patient/questions', active: activeLink === 'اسأل سؤال ' },
+        { name: 'نصائح طبية', icon: <FaCheckCircle />, link: '/patient/medical-advices', active: activeLink === 'نصائح طبية' },
     ];
 
     const handleLinkClick = (link) => {

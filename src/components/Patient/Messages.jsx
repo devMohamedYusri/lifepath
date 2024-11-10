@@ -70,13 +70,12 @@ function Messages() {
                     <img src={image} alt="sender" className="w-20 h-20"/>
                     <input
                         type="text"
-                        placeholder="ابحث عن رسالة او محادثة "
-                        className="outline-none h-full w-full rounded-md bg-blue-100 p-6"
+                        placeholder="اكتب رسالة"
+                        className="outline-none h-full w-full rounded-md bg-[#f4f4f4] p-6"
                     />
                     <button type="submit">
-                        <BsSend className="w-10 h-10 transform -scale-x-100" />
+                        <BsSend className="w-10 h-10 transform -scale-x-100 text-[#BC181D]" />
                     </button>
-
                 </form>
 
             </div>
@@ -84,8 +83,7 @@ function Messages() {
                 style={{
                     scrollbarWidth: "none",
                     msOverflowStyle: "none",
-                }}
-            >
+                    }}>
                 <h3>الرسائل</h3>
                 <p className="text-xs">يمكنك الان التواصل مع طبيبك للمتابعة</p>
                 <div className="flex items-center p-2 rounded-md w-full relative ">
@@ -98,22 +96,17 @@ function Messages() {
                         className="outline-none h-full w-full rounded-md bg-blue-100 px-8 p-2"
                     />
                 </div>
-                <Chat />
-                <Chat />
-                <Chat />
-                <Chat />
-                <Chat />
-                <Chat />
-                <Chat />
-                <Chat />
-                <Chat />
-                <Chat />
-                <Chat />
+                <Chat name="دكتور خالد" text="اهلا بك هل الدواء ..."/>
+                <Chat name="دكتور خالد" text="اهلا بك هل الدواء ..."/>
+                <Chat name="دكتور خالد" text="اهلا بك هل الدواء ..."/>
+                <Chat name="دكتور خالد" text="اهلا بك هل الدواء ..."/>
+                <Chat name="دكتور خالد" text="اهلا بك هل الدواء ..."/>
+                <Chat name="دكتور خالد" text="اهلا بك هل الدواء ..."/>
+                <Chat name="دكتور خالد" text="اهلا بك هل الدواء ..."/>
+                <Chat name="دكتور خالد" text="اهلا بك هل الدواء ..."/>
             </div>
         </div>
     )
 }
 
 export default Messages
-
-

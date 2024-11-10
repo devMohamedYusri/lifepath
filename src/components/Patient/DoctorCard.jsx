@@ -5,7 +5,7 @@ import { CiStethoscope } from "react-icons/ci";
 import Button from "../../design/Button";
 import { MessageCircle } from "lucide-react";
 
-function DoctorCard() {
+function DoctorCard({className}) {
     const doctor = {
         id: 1,
         image: 'path/to/image.jpg',
@@ -17,7 +17,7 @@ function DoctorCard() {
     };
 
     return (
-        <Link to={`/doctors/${doctor.id}`} className="w-[24%] h-fit items-center p-1 border rounded-lg shadow-md hover:shadow-lg ">
+        <Link to={`/patient/doctor-details`} className={`w-[24%] h-fit items-center p-1 border rounded-lg shadow-md hover:shadow-lg ${className}`}>
             <div className="flex">
                 <img src={image} alt={`${doctor.name} صورة`} className="w-20 h-20 rounded-full mr-4 shadow-md" />
                 <div className="flex-1">

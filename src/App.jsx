@@ -10,7 +10,11 @@ import LoginLayout from './components/LoginLayout';
 import Login from './components/Patient/Login';
 import Register from './components/Patient/Register';
 import Messages from './components/Patient/Messages';
-import Schedule from './components/Patient/Schedule';
+import DoctorDetails from './components/Patient/DoctorDetails';
+import MedicalAdvices from './components/Patient/MedicalAdvices';
+import Advice from './components/Patient/Advice';
+import CommonQuestions from './components/Patient/CommonQuestions';
+import Questions from './components/Patient/Questions';
 // import Profile from './components/Profile';
 // import Settings from './components/Settings';
 // import About from './components/About';
@@ -35,7 +39,11 @@ function App() {
                     <Route path="booking/specialist/:name" element={<Specialist />} />
                     <Route path="previous-visits/" element={<PreviousVisits />} />
                     <Route path="messages/" element={<Messages />} />
-                    <Route path="schedule/" element={<Schedule />} />
+                    <Route path="doctor-details/" element={<DoctorDetails />} />
+                    <Route path="medical-advices/" element={<MedicalAdvices />} />
+                    <Route path="medical-advices/advice-details" element={<Advice />} />
+                    <Route path="questions" element={<Questions />} />
+                    <Route path="questions/more-questions" element={<CommonQuestions />} />
 
                     {/* <Route path="profile" element={<Profile />} />
                     <Route path="settings" element={<Settings />} />
