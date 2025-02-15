@@ -22,7 +22,7 @@ import BrandProducts from './components/Patient/BrandProducts';
 import Cart from './components/Patient/Cart';
 import BrandCart from './components/Patient/BrandCart';
 import HomeVisits from './components/Patient/HomeVisits';
-// import Profile from './components/Profile';
+import Profile from './components/Patient/Profile';
 // import Settings from './components/Settings';
 // import About from './components/About';
 // import Contact from './components/Contact';
@@ -34,7 +34,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Navigate to="/patient/home" />} />
                 <Route path="/login" element={<LoginLayout />} >
-                    <Route path="patient" element={<Login />} />
+                    <Route path='index' element={<Login />} />
                     <Route path="register" element={<Register />} />
                 </Route>
                 <Route path="/patient/*" element={<PatientLayout />}>
@@ -55,11 +55,9 @@ function App() {
                     <Route path="pharmacy/brand" element={<BrandProducts />} />
                     <Route path="pharmacy/cart" element={<Cart />} />
                     <Route path="pharmacy/brand/cart" element={<BrandCart />} />
-
-                    {/* <Route path="profile" element={<Profile />} />
+                    <Route path="profile" element={<Profile />} />
+                    {/* 
                     <Route path="settings" element={<Settings />} />
-                    <Route path="about" element={<About />} />
-                    <Route path="contact" element={<Contact />} />
                     <Route path="reports" element={<Reports />} /> */}
                 </Route>
 

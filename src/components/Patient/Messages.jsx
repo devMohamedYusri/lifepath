@@ -67,7 +67,7 @@ function Messages() {
                     className="bg-[#93a5ec]"
                 />
                 <form className="sticky bottom-0 w-full flex justify-between rounded-md p-5 m-2 bg-white gap-3">
-                    <img src={image} alt="sender" className="w-20 h-20"/>
+                    <img src={image} alt="sender" className="w-16 h-16"/>
                     <input
                         type="text"
                         placeholder="اكتب رسالة"

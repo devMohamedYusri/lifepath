@@ -19,7 +19,7 @@ function BrandProducts() {
                         </Link>
                         <input
                             type="text"
-                            placeholder="اكتب اسم الطبيب "
+                            placeholder="اكتب اسم الدواء الذي تبحث عنه "
                             className=" p-1.5 pr-14 outline-none h-full w-full rounded-md bg-gray-100"
                         />
 

@@ -9,9 +9,9 @@ import DoctorCard from './DoctorCard'
 function Booking() {
     return (
             <div className="h-full">
-                <Container className={"m-4"}>
+                <Container className={"m-2"}>
                     <div className="flex justify-between pl-4">
-                        <div className="flex my-5 items-center gap-4">
+                        <div className="flex my-2 items-center gap-4">
                             <img src={image} alt="" className='rounded-full pt-3 w-20 h-20' />
                             <div>
                                 <p>مرحبا،علي!</p>

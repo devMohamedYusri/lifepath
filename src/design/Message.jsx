@@ -4,7 +4,7 @@ function Message({text,name,date,className,currentUser}) {
     const notCurrentUser = currentUser === name;
 
     return (
-        <div className={`w-full flex justify-between rounded-md p-3 m-2 bg-white ${notCurrentUser ? 'flex-row-reverse' : 'flex-row'} ${className} `}>
+        <div className={`w-full flex justify-between rounded-md p-3 m-1 bg-white ${notCurrentUser ? 'flex-row-reverse' : 'flex-row'} ${className} `}>
             <div className={`flex ${notCurrentUser ? 'flex-row-reverse' : 'flex-row'}`}>
                 <img src={image} alt="sender" className="m-2 w-10 h-10 rounded-full border-2 border-gray-600"/>
                 <div className={`flex flex-col gap-3 ${notCurrentUser?'items-end':"items-start"}`}>

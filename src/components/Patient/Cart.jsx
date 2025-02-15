@@ -4,7 +4,7 @@ import CartCard from "./CartCard"
 
 function Cart() {
     return (
-        <div className="flex flex-col gap-4 m-5 items-center">
+        <div className="flex flex-col gap-4 m-4 items-center">
             <Title text="قائمة المشتريات " className="font-bold self-start "/>
             <CartCard/>
             <CartCard/>

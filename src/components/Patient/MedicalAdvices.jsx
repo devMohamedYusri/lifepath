@@ -6,7 +6,7 @@ function MedicalAdvices() {
     return (
         <Container className="m-3" >
             <Title text="بعض النصائح الطبية قد تهمك" className="p-3"/>
-            <div className="flex flex-wrap gap-5 justify-center">
+            <div className="flex flex-wrap gap-3 justify-center">
                 <BlogCard/>
                 <BlogCard/>
                 <BlogCard/>

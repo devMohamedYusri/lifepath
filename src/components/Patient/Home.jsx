@@ -16,7 +16,7 @@ function Home() {
     return (
         <div className="h-full flex mb-10">
             <div className="w-3/4">
-                <Container className={"m-4 p-3 overflow-hidden"}>
+                <Container className={"m-2 p-3 overflow-hidden"}>
                     <div className="flex gap-3 justify-between">
                         <div className="flex gap-6 mb-5">
                             <Title text="التخصصات والاطباء" />
@@ -39,7 +39,7 @@ function Home() {
                     </div>
                 </Container>
 
-                <Container className={"m-4 p-3 overflow-hidden"}>
+                <Container className={"m-2 p-3 overflow-hidden"}>
                     <div className="flex gap-3 justify-between">
                         <div className="flex gap-6 mb-5">
                             <Title text="جدول المواعيد" />
@@ -73,7 +73,7 @@ function Home() {
                     </div>
                 </Container>
                 
-            <Container className={"m-4 p-3 overflow-hidden"}>
+            <Container className={"m-2 p-3 overflow-hidden"}>
                     <div className="flex gap-3 justify-between">
                         <div className="flex gap-6 mb-5">
                             <Title text="نتائج تحاليل سابقة" />
@@ -87,7 +87,7 @@ function Home() {
                     <InfoCard />
                     </div>
                 </Container>
-                <Container className={"m-4 p-3 overflow-hidden"}>
+                <Container className={"m-2 p-3 overflow-hidden"}>
                     <div className="flex gap-3 justify-between">
                         <div className="flex gap-6 mb-5">
                             <Title text="معلومات طبية تهمك!" />
@@ -98,7 +98,7 @@ function Home() {
                             <Arrow isBack={true} onClick={() => document.querySelector('.articles-cards').scrollLeft += 100} />
                         </div>
                     </div>
-                    <div className="flex gap-4 overflow-hidden articles-cards">
+                    <div className="flex gap-2 overflow-hidden articles-cards">
                         <BlogCard/>
                         <BlogCard/>
                         <BlogCard/>
@@ -111,7 +111,7 @@ function Home() {
             </div>
             <div className="w-1/4 center ">
                 <Calendar />
-                <Container className={"mt-3 p-3 overflow-hidden rounded-3xl w-[94%]"}>
+                <Container className={"mt-3 p-3 overflow-hidden rounded-3xl w-[98%]"}>
                     <div className="flex gap-3 justify-between py-3">
                         <div className="flex gap-6 mb-5">
                             <Title text="اشهر الاطباء  " />

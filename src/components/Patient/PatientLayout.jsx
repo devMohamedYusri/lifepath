@@ -92,7 +92,7 @@ function PatientLayout() {
                         </div>
                     </div>
                 </div>
-                <div className="flex-grow overflow-y-auto bg-gray-200 h-full">
+                <div className="flex-grow overflow-y-auto bg-gray-200 h-full ">
                     <Outlet />
                 </div>
             </div>

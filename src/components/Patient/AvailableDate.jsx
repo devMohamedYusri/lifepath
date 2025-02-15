@@ -1,7 +1,7 @@
 import Button from "../../design/Button"
 
 function AvailableDate({ day, from,to,availability,className }) {
-    const time="من 2:00 مساء حتي 10:00 مساءا"
+    const time=" 2:00مساء 10:00مساء"
     return (
         <div className="w-fit p-1">
 

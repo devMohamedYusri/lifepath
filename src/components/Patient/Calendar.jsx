@@ -25,36 +25,35 @@ const Calendar = () => {
 
 
   const handleNextMonth = () => {
-    setCurrentDate(addMonths(currentDate, 1)); // Navigate to the next month
+    setCurrentDate(addMonths(currentDate, 1));
   };
 
   const handlePrevMonth = () => {
-    setCurrentDate(subMonths(currentDate, 1)); // Navigate to the previous month
+    setCurrentDate(subMonths(currentDate, 1)); 
   };
 
   const handleNextYear = () => {
-    setCurrentDate(addMonths(currentDate, 12)); // Navigate to the next year
+    setCurrentDate(addMonths(currentDate, 12)); 
   };
 
   const handlePrevYear = () => {
-    setCurrentDate(subMonths(currentDate, 12)); // Navigate to the previous year
+    setCurrentDate(subMonths(currentDate, 12)); 
   };
 
 
   return (
-    <div className="w-[94%] mt-3 bg-white rounded-3xl shadow px-5 py-4 rtl">
+    <div className="w-[98%] mt-2 bg-white rounded-3xl shadow px-3 py-3 rtl">
       <div className="flex justify-between items-center mb-4">
       <button className="text-gray-600" onClick={handlePrevYear}>»»</button>
         <button className="text-gray-600" onClick={handlePrevMonth}>»</button>
         <div className="text-lg font-semibold">{format(currentDate, 'MMMM yyyy')}</div>
         <button className="text-gray-600" onClick={handleNextMonth}>«</button>
         <button className="text-gray-600" onClick={handleNextYear}>««</button>
-
       </div>
 
-      <div className="grid grid-cols-7 gap-3 mb-2">
+      <div className="grid grid-cols-7 gap-2 mb-2">
         {weekDays.map((day, index) => (
-          <div key={index} className="text-center text-sm text-gray-600">
+          <div key={index} className="text-center text-sm text-gray-600 w-full">
             {day}
           </div>
         ))}

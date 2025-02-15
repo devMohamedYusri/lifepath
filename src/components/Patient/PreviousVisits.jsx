@@ -9,7 +9,7 @@ function PreviousVisits() {
     return (
         <div>
             <div className="h-full m-2">
-                <Container className={"m-4"}>
+                <Container className={"m-2"}>
                     <div className="flex justify-between pl-4 items-center">
                         <div className="flex my-5 items-center gap-4">
                             <img src={image} alt="" className='rounded-full pt-3 w-20 h-20' />
@@ -24,7 +24,7 @@ function PreviousVisits() {
                     </div>
                 </Container>
 
-                <Container className={"m-4 p-3 overflow-hidden"}>
+                <Container className={"m-2 p-3 overflow-hidden"}>
                     <div className="flex gap-1 mb-5">
                         <Title text="اشهر الاطباء" />
                     </div>
