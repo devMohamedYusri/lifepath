@@ -1,5 +1,5 @@
 import Container from "@/design/Container";
-import Title from "@/design/Title";
+import Title from "@/design/Title.jsx";
 import SpecialistCard from "@/components/patient/SpecialistCard"; 
 import blood from "@/assets/react.svg"; 
 import More from "@/design/More";
