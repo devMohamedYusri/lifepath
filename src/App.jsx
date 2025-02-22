@@ -23,10 +23,7 @@ import Cart from './components/Patient/Cart';
 import BrandCart from './components/Patient/BrandCart';
 import HomeVisits from './components/Patient/HomeVisits';
 import Profile from './components/Patient/Profile';
-// import Settings from './components/Settings';
-// import About from './components/About';
-// import Contact from './components/Contact';
-// import Reports from './components/Reports';
+import Setting from './components/Patient/Setting';
 
 function App() {
     return (
@@ -56,9 +53,7 @@ function App() {
                     <Route path="pharmacy/cart" element={<Cart />} />
                     <Route path="pharmacy/brand/cart" element={<BrandCart />} />
                     <Route path="profile" element={<Profile />} />
-                    {/* 
-                    <Route path="settings" element={<Settings />} />
-                    <Route path="reports" element={<Reports />} /> */}
+                    <Route path="settings" element={<Setting />} />
                 </Route>
 
                 <Route path="/admin/*" element={<AdminLayout />}>

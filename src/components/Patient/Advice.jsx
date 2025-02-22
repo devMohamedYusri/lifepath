@@ -13,9 +13,13 @@ function Advice() {
                     <GoArrowLeft className="w-7 h-7 text-center" />
                 </Link>
             </div>
-            <div className="flex gap-5 justify-center border-4 border-gray-200 p-4 rounded-xl">
-                <img src={image} alt="image-article" className="w-1/3 h-fit" />
-                <div>
+            <div className="gap-5 justify-center border-4 border-gray-200 p-4 rounded-xl md:flex md:h-fit">
+                <img 
+                    src={image} 
+                    alt="image-article" 
+                    className="w-full h-fit md:w-1/3" 
+                />
+                <div className="md:w-2/3">
                     <h3 className="font-bold text-5xl p-4">لام التعريف :</h3>
                     <p>
                         تصنيف

@@ -52,7 +52,7 @@ export default function Profile() {
             </Container>
 
             <Container className="p-0 mt-2 sm:p-1 md:p-2">
-                <div className="my-2 flex gap-1 w-full sm:gap-3">
+                <div className="my-2 flex flex-wrap gap-1 w-full sm:gap-3">
                     <Button icon={HeartPulse} className="hover:bg-blue-100" onClick={() => tabActivated('medicalHistory')}>Medical History</Button>
                     <Button icon={Pill} className="hover:bg-blue-100" onClick={() => tabActivated('prescriptions')}>Prescriptions</Button>
                     <Button icon={FileText} className="hover:bg-blue-100" onClick={() => tabActivated('labReports')}>Lab Reports</Button>

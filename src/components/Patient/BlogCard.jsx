@@ -5,7 +5,7 @@ const BlogCard = ({className}) => {
     const description = "يعتبر تغيير نمط الحياة واتباع أسلوب صحي أكثر في جميع الاختيارات اليومية، هو الأفضل لتحقيق الوزن المثالي والحفاظ على الصحة العامة.";
     
     return (
-        <Link to="/patient/medical-advices/advice-details" className={`flex items-center border border-gray-300 rounded-lg gap-2 p-1  w-52 flex-shrink-0 ${className}`}>
+        <Link to="/patient/medical-advices/advice-details" className={`flex items-center border border-gray-300 rounded-lg gap-2 p-1  w-60 h-32 flex-shrink-0 ${className}`}>
             <img src={image} alt="image" className="w-1/3 h-full"/>
             <div className="flex-grow">
                 <h3 className="text-base font-bold">سعرات حرارية:</h3>
