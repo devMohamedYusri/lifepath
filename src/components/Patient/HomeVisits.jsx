@@ -1,6 +1,6 @@
 import { useState } from "react";
 import image from "../../assets/bgpharmacy.png"
-import { LuPlusCircle } from "react-icons/lu";
+import { LuPlus } from "react-icons/lu";
 import Container from "../../design/Container";
 import Title from "../../design/title";
 import DoctorCard from "./DoctorCard";
@@ -26,7 +26,7 @@ function HomeVisits() {
                 </div>
                 <div onClick={handleBackClick} className=" relative flex gap-6 px-8 cursor-pointer items-center">
                     <p className="text-[#4E70FB]">حجز موعد جديد</p>
-                    <LuPlusCircle className="text-[#BC181D] rounded-full p-1 size-10 font-extrabold" />
+                    <LuPlus className="text-[#BC181D] rounded-full p-1 size-10 font-extrabold" />
                 </div>
             </Container>
             
