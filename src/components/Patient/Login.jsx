@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import logo from '../../assets/lifepath.png'
-import Input from '../../design/Input'
-import Label from '../../design/Label'
+import logo from '@/assets/lifepath.png'
+import Input from '@/design/Input'
+import Label from '@/design/Label'
 import { Link } from 'react-router-dom';
-import Button from '../../design/Button';
+import Button from '@/design/Button';
 import { FcGoogle } from 'react-icons/fc';
 import { FiFacebook } from 'react-icons/fi';
 import { FaApple } from 'react-icons/fa';

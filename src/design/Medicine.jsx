@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
-import image from "../assets/bgpharmacy.png"
-import MedicineButton from "./MedicineButton"
+import image from "@/assets/bgpharmacy.png"
+import MedicineButton from "@/design/MedicineButton"
 function Medicine({text,className}) {
   return (
     <Link to="/patient/pharmacy/product" className={`w-64 border-2 border-gray-300 rounded-3xl flex-shrink-0 mb-3 ${className}`}>

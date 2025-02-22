@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import truncateDescription from "../../Utility/TextEdit"
-import image from '../../assets/male-doctor.webp'
+import truncateDescription from "@/Utility/TextEdit"
+import image from '@/assets/male-doctor.webp'
 const BlogCard = ({className}) => {
     const description = "يعتبر تغيير نمط الحياة واتباع أسلوب صحي أكثر في جميع الاختيارات اليومية، هو الأفضل لتحقيق الوزن المثالي والحفاظ على الصحة العامة.";
     

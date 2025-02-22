@@ -1,8 +1,8 @@
-import Container from "../../design/Container"
-import Title from "../../design/title"
+import Container from "@/design/Container"
+import Title from "@/design/title"
 import { Link } from "react-router-dom";
 import { GoArrowLeft } from "react-icons/go";
-import image from '../../assets/male-doctor.webp'
+import image from '@/assets/male-doctor.webp'
 function Advice() {
     return (
         <Container className="m-3 p-4" >

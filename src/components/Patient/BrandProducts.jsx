@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom"
-import Button from "../../design/Button"
-import Container from "../../design/Container"
-import Title from "../../design/title"
+import Button from "@/design/Button"
+import Container from "@/design/Container"
+import Title from "@/design/title"
 import { IoSearchOutline } from "react-icons/io5"
-import image from "../../assets/react.svg"
-import Medicine from "../../design/Medicine"
+import image from "@/assets/react.svg"
+import Medicine from "@/design/Medicine"
 function BrandProducts() {
     return (
         <div className="m-3 ">

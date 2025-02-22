@@ -1,5 +1,5 @@
 import { X } from 'lucide-react';
-import Button from '../design/Button.jsx'
+import Button from '@/design/Button.jsx'
 const NotFoundPage = () => {
     return (
         <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white flex items-center justify-center p-4">

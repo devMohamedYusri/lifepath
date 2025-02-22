@@ -1,5 +1,5 @@
-import image from '../../assets/react.svg'
-import DoctorRatingStars from '../../design/DoctorRating'
+import image from '@/assets/react.svg'
+import DoctorRatingStars from '@/design/DoctorRating'
 function RatingCard({ className }) {
     return (
         <div className={`w-full flex justify-between rounded-md p-1 m-2 bg-gray-200 ${className} `}>

@@ -1,5 +1,5 @@
-import Container from "../../design/Container"
-import image from '../../assets/bgpharmacy.png'
+import Container from "@/design/Container"
+import image from '@/assets/bgpharmacy.png'
 import { CgCloseR } from "react-icons/cg"
 import { CiCircleMinus, CiCirclePlus } from "react-icons/ci"
 function CartCard() {

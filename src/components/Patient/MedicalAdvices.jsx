@@ -1,6 +1,6 @@
-import Container from "../../design/Container"
-import Title from "../../design/title"
-import BlogCard from './BlogCard';
+import Container from "@/design/Container"
+import Title from "@/design/title"
+import BlogCard from '@/components/Patient/BlogCard';
 
 function MedicalAdvices() {
     return (

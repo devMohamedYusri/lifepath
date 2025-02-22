@@ -4,7 +4,7 @@ import { FaHome, FaUser, FaCog, FaInfo, FaEnvelope, FaChartPie, FaFileAlt, FaChe
 import { IoMdArrowDropdown } from "react-icons/io";
 import { CiUser } from 'react-icons/ci';
 import { IoBagOutline, IoSearchOutline } from 'react-icons/io5';
-import logo from '../../assets/lifepath.jpg';
+import logo from '@/assets/lifepath.jpg';
 import { GoQuestion, GoSidebarCollapse, GoSidebarExpand } from 'react-icons/go';
 import { RiCalendarScheduleLine } from 'react-icons/ri';
 

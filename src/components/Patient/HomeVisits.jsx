@@ -1,14 +1,14 @@
 import { useState } from "react";
-import image from "../../assets/bgpharmacy.png"
+import image from "@/assets/bgpharmacy.png"
 import { LuPlus } from "react-icons/lu";
-import Container from "../../design/Container";
-import Title from "../../design/title";
-import DoctorCard from "./DoctorCard";
+import Container from "@/design/Container";
+import Title from "@/design/title";
+import DoctorCard from "@/components/Patient/DoctorCard";
 import { Link } from "react-router-dom";
 import { FiArrowLeftCircle } from "react-icons/fi";
-import AppointmentCard from "./AppointmentCard";
+import AppointmentCard from "@/components/Patient/AppointmentCard";
 import { MdKeyboardArrowDown } from "react-icons/md";
-import SpecialistCard from "./SpecialistCard";
+import SpecialistCard from "@/components/Patient/SpecialistCard";
 function HomeVisits() {
     const [OpenAll, setOpenAll] = useState(false);
     const handleBackClick = () => {

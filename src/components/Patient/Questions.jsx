@@ -1,14 +1,14 @@
-import Container from "../../design/Container"
-import Title from "../../design/title"
-import image from '../../assets/react.svg'
+import Container from "@/design/Container"
+import Title from "@/design/title"
+import image from '@/assets/react.svg'
 import { BsSend } from "react-icons/bs"
 import { MdKeyboardArrowDown } from "react-icons/md"
-import SpecialistCard from "./SpecialistCard"
+import SpecialistCard from "@/components/Patient/SpecialistCard"
 import { useState } from "react"
 import { Link } from "react-router-dom"
-import QuestionAnswer from "./QuestionAnswer"
-import Question from "./Question"
-import Answer from "./Answer"
+import QuestionAnswer from "@/components/Patient/QuestionAnswer"
+import Question from "@/components/Patient/Question"
+import Answer from "@/components/Patient/Answer"
 
 
 function Questions() {

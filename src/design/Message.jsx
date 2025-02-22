@@ -1,4 +1,4 @@
-import image from '../assets/react.svg';
+import image from '@/assets/react.svg';
 
 function Message({text,name,date,className,currentUser}) {
     const notCurrentUser = currentUser === name;

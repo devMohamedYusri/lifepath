@@ -1,4 +1,4 @@
-import Switch from "./Switch"
+import Switch from "@/design/Switch"
 
 function SettingInput({ text, hint }) {
     return (

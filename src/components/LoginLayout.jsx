@@ -1,5 +1,5 @@
-import image from "../assets/male-doctor.webp"
-import lifepath from "../assets/lifepath.png"
+import image from "@/assets/male-doctor.webp"
+import lifepath from "@/assets/lifepath.png"
 import { Outlet } from "react-router-dom"
 function LoginLayout() {
     return (

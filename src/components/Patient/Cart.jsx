@@ -1,6 +1,6 @@
-import MedicineButton from "../../design/MedicineButton"
-import Title from "../../design/title"
-import CartCard from "./CartCard"
+import MedicineButton from "@/design/MedicineButton"
+import Title from "@/design/title"
+import CartCard from "@/components/Patient/CartCard"
 
 function Cart() {
     return (

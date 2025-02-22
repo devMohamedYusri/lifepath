@@ -1,6 +1,6 @@
 import { Clock, MessageCircle, AlertCircle } from 'lucide-react';
-import image from '../../assets/react.svg'
-import Button from '../../design/Button';
+import image from '@/assets/react.svg'
+import Button from '@/design/Button';
 const AppointmentCard = ({className}) => {
     return (
         <div className={` bg-white rounded-xl border-2 border-gray-200 p-4 flex-shrink-0 ${className}`} dir="rtl">
