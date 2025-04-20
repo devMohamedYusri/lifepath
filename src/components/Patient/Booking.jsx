@@ -1,10 +1,14 @@
+import { useState } from "react"
+import { Link } from "react-router-dom"
+import { MdKeyboardArrowDown } from "react-icons/md"
+import { IoSearchOutline } from "react-icons/io5"
 import Arrow from "@/design/Arrow"
 import Container from "@/design/Container"
 import More from "@/design/more"
 import Title from "@/design/title"
 import image from '@/assets/react.svg'
-import SpecialistCard from "./SpecialistCard"
-import DoctorCard from './DoctorCard'
+import SpecialistCard from "@/components/Patient/SpecialistCard"
+import DoctorCard from '@/components/Patient/DoctorCard'
 
 function Booking() {
     return (

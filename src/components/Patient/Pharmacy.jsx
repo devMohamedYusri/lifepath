@@ -1,8 +1,8 @@
-import Container from "../../design/Container"
-import image from '../../assets/bgpharmacy.png'
+import Container from "@/design/Container"
+import image from '@/assets/bgpharmacy.png'
 import { MdKeyboardArrowDown } from "react-icons/md"
-import Title from "../../design/title"
-import Medicine from "../../design/Medicine"
+import Title from "@/design/title"
+import Medicine from "@/design/Medicine"
 import { useState } from "react"
 import SpecialistCard from "./SpecialistCard"
 function Pharmacy() {
