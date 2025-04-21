@@ -1,10 +1,10 @@
-import Container from "@/design/Container"
-import Title from "@/design/title"
+import Container from "@/design/Container.jsx"
+import Title from "@/design/Title.jsx"
 import image from '@/assets/react.svg'
-import DoctorCard from '@/components/Patient/DoctorCard'
+import DoctorCard from './DoctorCard.jsx'
 import { FaArrowLeftLong } from "react-icons/fa6"
 import { useState } from "react"
-import SpecialistCard from "@/components/Patient/SpecialistCard"
+import SpecialistCard from "./SpecialistCard.jsx"
 
 function Specialist() {
     const [OpenAll, setOpenAll] = useState(false);

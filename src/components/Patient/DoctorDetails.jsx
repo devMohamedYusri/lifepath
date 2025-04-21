@@ -1,16 +1,17 @@
-import Container from "@/design/Container"
-import DoctorRatingStars from "@/design/DoctorRating"
+import Container from "@/design/Container.jsx"
+import DoctorRatingStars from "@/design/DoctorRating.jsx"
 import image from '@/assets/react.svg'
-import Button from "@/design/Button";
-import RatingCard from "@/components/Patient/RatingCard";
-import AvailableDate from "@/components/Patient/AvailableDate";
-import Title from "@/design/title";
-import DoctorCard from "@/components/Patient/DoctorCard";
-import { FiArrowLeftCircle } from "react-icons/fi";
-import { Link } from "react-router-dom";
-import { useState } from "react";
-import FullRating from "@/components/Patient/FullRating";
-import { BsSend } from "react-icons/bs";
+import Button from "@/design/Button.jsx"
+import RatingCard from "@/components/Patient/RatingCard.jsx"
+import AvailableDate from "@/components/Patient/AvailableDate.jsx"
+import Title from "@/design/Title.jsx"
+import DoctorCard from "@/components/Patient/DoctorCard.jsx"
+import { FiArrowLeftCircle } from "react-icons/fi"
+import { Link } from "react-router-dom"
+import { useState } from "react"
+import FullRating from "@/components/Patient/FullRating.jsx"
+import { BsSend } from "react-icons/bs"
+
 function DoctorDetails() {
   const [moreRates, setMoreRates] = useState(true);
   const doctor = {

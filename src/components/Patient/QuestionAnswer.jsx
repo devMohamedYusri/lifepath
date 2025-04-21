@@ -1,5 +1,5 @@
-import Question from "@/components/Patient/Question"
-import Answer from "@/components/Patient/Answer"
+import Question from "@/components/Patient/Question.jsx"
+import Answer from "@/components/Patient/Answer.jsx"
 
 function QuestionAnswer({question,specialist,response,doctor,asker,className}) {
   return (

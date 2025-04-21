@@ -1,10 +1,10 @@
 import { LuShoppingCart } from "react-icons/lu"
 import image from "@/assets/bgpharmacy.png"
-import Container from "@/design/Container"
-import MedicineButton from "@/design/MedicineButton"
-import Title from "@/design/title"
-import Medicine from "@/design/Medicine"
-import More from "@/design/more"
+import Container from "@/design/Container.jsx"
+import Title from "@/design/Title.jsx"
+import MedicineButton from "@/design/MedicineButton.jsx"
+import Medicine from "@/design/Medicine.jsx"
+import More from "@/design/More.jsx"
 function MedicineDetials() {
     return (
         <div className="flex flex-col gap-4 m-4">

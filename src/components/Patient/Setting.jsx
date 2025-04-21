@@ -1,7 +1,7 @@
-import Container from "@/design/Container"
+import Container from "@/design/Container.jsx"
 import { UserRoundPen } from 'lucide-react';
-import SettingHead from "@/design/SettingHead";
-import SettingInput from "@/design/SettingInput";
+import SettingHead from "@/design/SettingHead.jsx";
+import SettingInput from "@/design/SettingInput.jsx";
 
 function Setting() {
     const settingsGroups = [

@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom"
-import Button from "@/design/Button"
-import Container from "@/design/Container"
-import Title from "@/design/title"
+import Button from "@/design/Button.jsx"
+import Container from "@/design/Container.jsx"
+import Title from "@/design/Title.jsx"
 import { IoSearchOutline } from "react-icons/io5"
 import image from "@/assets/react.svg"
-import Medicine from "@/design/Medicine"
+import Medicine from "@/design/Medicine.jsx"
 function BrandProducts() {
     return (
         <div className="m-3 ">
@@ -35,7 +35,6 @@ function BrandProducts() {
             <Container className="m-1 mt-3 p-3 ">
             <Title text="منتجات متوفرة في الصيدلية" className="font-bold text-3xl"/>
             <div className="flex flex-wrap gap-4 justify-center">
-                <Medicine text="299 ج.م"/>
                 <Medicine text="299 ج.م"/>
                 <Medicine text="299 ج.م"/>
                 <Medicine text="299 ج.م"/>

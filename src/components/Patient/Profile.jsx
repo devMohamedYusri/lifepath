@@ -1,6 +1,6 @@
-import Container from "@/design/Container";
+import Container from "@/design/Container.jsx";
 import image from "@/assets/react.svg";
-import Button from "@/design/Button";
+import Button from "@/design/Button.jsx";
 import { useState } from "react";
 import { HeartPulse, Pill , FileText, Video } from 'lucide-react';
 

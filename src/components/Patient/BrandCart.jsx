@@ -1,7 +1,7 @@
 import Container from "@/design/Container"
 import image from "@/assets/react.svg"
-import Title from "@/design/title"
-import CartCard from "@/components/Patient/CartCard"
+import Title from "@/design/Title.jsx"
+import CartCard from "./CartCard.jsx"
 import MedicineButton from "@/design/MedicineButton"
 function BrandCart() {
     return (

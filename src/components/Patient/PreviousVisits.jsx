@@ -1,7 +1,7 @@
-import Container from "@/design/Container"
-import Title from "@/design/title"
+import Container from "@/design/Container.jsx"
+import Title from "@/design/Title.jsx"
 import image from '@/assets/react.svg'
-import VisitCard from "@/components/Patient/VisitCard"
+import VisitCard from "@/components/Patient/VisitCard.jsx"
 import { AiOutlinePlusCircle } from "react-icons/ai"
 import { Link } from "react-router-dom"
 

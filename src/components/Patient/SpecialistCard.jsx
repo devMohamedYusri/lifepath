@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import image from '@/assets/react.svg'
 
 const SpecialistCard = ({ icon, specialist, className, imgclass }) => {
     return (

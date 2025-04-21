@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
-import Chat from "@/design/Chat"
-import Message from "@/design/Message"
+import Chat from "@/design/Chat.jsx"
+import Message from "@/design/Message.jsx"
 import { IoSearchOutline } from "react-icons/io5"
 import { BsSend } from "react-icons/bs"
 import image from "@/assets/react.svg"

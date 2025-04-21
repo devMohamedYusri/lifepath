@@ -1,15 +1,15 @@
-import Container from "@/design/Container";
+import Container from "@/design/Container.jsx";
 import Title from "@/design/Title.jsx";
-import SpecialistCard from "@/components/patient/SpecialistCard"; 
+import SpecialistCard from "@/components/patient/SpecialistCard.jsx"; 
 import blood from "@/assets/react.svg"; 
-import More from "@/design/More";
-import Arrow from "@/design/Arrow";
-import Calendar from "@/components/patient/Calendar"; 
-import Day from "@/design/Day";
-import AppointmentCard from "@/components/patient/AppointmentCard"; 
-import InfoCard from "@/components/patient/InfoCard"; 
-import BlogCard from "@/components/patient/BlogCard"; 
-import PopularDoctor from "@/components/patient/PopularDoctor"; 
+import More from "@/design/More.jsx";
+import Arrow from "@/design/Arrow.jsx";
+import Calendar from "@/components/patient/Calendar.jsx"; 
+import Day from "@/design/Day.jsx";
+import AppointmentCard from "@/components/patient/AppointmentCard.jsx"; 
+import InfoCard from "@/components/patient/InfoCard.jsx"; 
+import BlogCard from "@/components/patient/BlogCard.jsx"; 
+import PopularDoctor from "@/components/patient/PopularDoctor.jsx"; 
 function Home() {
     return (
         <div className="h-full flex mb-10">

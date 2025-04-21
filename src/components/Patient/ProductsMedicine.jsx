@@ -1,6 +1,6 @@
-import Container from "@/design/Container"
-import Medicine from "@/design/Medicine"
-import Title from "@/design/title"
+import Container from "@/design/Container.jsx"
+import Medicine from "@/design/Medicine.jsx"
+import Title from "@/design/Title.jsx"
 
 function ProductsMedicine() {
     return (

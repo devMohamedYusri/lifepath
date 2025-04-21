@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
 import image from '@/assets/react.svg'
 import { CiStethoscope } from "react-icons/ci";
-import { FaStar } from "react-icons/fa";
-import Button from "@/design/Button";
+import Button from "@/design/Button.jsx";
 import { MessageCircle } from "lucide-react";
-import DoctorRatingStars from "@/design/DoctorRating";
+import DoctorRatingStars from "@/design/DoctorRating.jsx";
 
 function DoctorCard({className}) {
     const doctor = {

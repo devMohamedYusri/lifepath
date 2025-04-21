@@ -1,5 +1,5 @@
-import Container from "@/design/Container"
-import Title from "@/design/title"
+import Container from "@/design/Container.jsx"
+import Title from "@/design/Title.jsx"
 import { Link } from "react-router-dom";
 import { GoArrowLeft } from "react-icons/go";
 import image from '@/assets/male-doctor.webp'

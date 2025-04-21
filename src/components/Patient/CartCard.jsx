@@ -1,4 +1,4 @@
-import Container from "@/design/Container"
+import Container from "@/design/Container.jsx"
 import image from '@/assets/bgpharmacy.png'
 import { CgCloseR } from "react-icons/cg"
 import { CiCircleMinus, CiCirclePlus } from "react-icons/ci"

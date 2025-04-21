@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import image from '@/assets/react.svg';
-import DoctorRatingStars from '@/design/DoctorRating';
+import DoctorRatingStars from '@/design/DoctorRating.jsx';
 const PopularDoctor = () => {
     const doctor = {
         id: 1,

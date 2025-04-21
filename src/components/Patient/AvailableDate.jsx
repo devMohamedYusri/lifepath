@@ -1,4 +1,4 @@
-import Button from "@/design/Button"
+import Button from "@/design/Button.jsx"
 
 function AvailableDate({ day, from,to,availability,className }) {
     const time=" 2:00مساء 10:00مساء"

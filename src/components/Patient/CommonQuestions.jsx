@@ -1,7 +1,6 @@
-import Container from "@/design/Container"
-import Medicine from "@/design/Medicine";
-import Title from "@/design/title"
-import QuestionAnswer from "./QuestionAnswer";
+import Container from "@/design/Container.jsx"
+import Title from "@/design/Title.jsx"
+import QuestionAnswer from "./QuestionAnswer.jsx"
 
 function CommonQuestions() {
   return (

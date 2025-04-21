@@ -1,8 +1,8 @@
-import Container from "@/design/Container"
+import Container from "@/design/Container.jsx"
 import image from '@/assets/bgpharmacy.png'
 import { MdKeyboardArrowDown } from "react-icons/md"
-import Title from "@/design/title"
-import Medicine from "@/design/Medicine"
+import Title from "@/design/Title.jsx"
+import Medicine from "@/design/Medicine.jsx"
 import { useState } from "react"
 import SpecialistCard from "./SpecialistCard"
 function Pharmacy() {
@@ -30,8 +30,6 @@ function Pharmacy() {
                     </button>
                     {OpenAll && (
                         <div className="mt-2 w-full bg-blue-300 shadow-lg rounded-md py-2 flex flex-wrap gap-5 p-10 z-100">
-                            <SpecialistCard icon={image} specialist={"طبيب الاطفال"} className="p-2 flex-1 bg-white w-fit" imgclass="w-16 h-16 " />
-                            <SpecialistCard icon={image} specialist={"طبيب الاطفال"} className="p-2 flex-1 bg-white w-fit" imgclass="w-16 h-16 " />
                             <SpecialistCard icon={image} specialist={"طبيب الاطفال"} className="p-2 flex-1 bg-white w-fit" imgclass="w-16 h-16 " />
                             <SpecialistCard icon={image} specialist={"طبيب الاطفال"} className="p-2 flex-1 bg-white w-fit" imgclass="w-16 h-16 " />
                             <SpecialistCard icon={image} specialist={"طبيب الاطفال"} className="p-2 flex-1 bg-white w-fit" imgclass="w-16 h-16 " />

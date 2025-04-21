@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import logo from '@/assets/lifepath.png'
-import Input from '@/design/Input'
-import Label from '@/design/Label'
+import Input from '@/design/Input.jsx'
+import Label from '@/design/Label.jsx'
 import { Link } from 'react-router-dom';
-import Button from '@/design/Button';
+import Button from '@/design/Button.jsx';
+
 function Register() {
     const [selectedRole, setSelectedRole] = useState('');
     const handleRoleChange = (e) => {
